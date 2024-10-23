@@ -6,7 +6,6 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: hsl(193, 100%, 52%);
 }
 
 .clock-container {
@@ -24,7 +23,7 @@ body {
 
 .hand {
     position: absolute;
-    background-color: #329ea8;
+    background-color:black;
     transform-origin: 50% 100%;
     transform: rotate(90deg);
     transition: all 0.05s ease-in-out;
@@ -42,7 +41,7 @@ body {
     height: 70px;
     top: 30px;
     left: 98px;
-    background-color: #32a84a;
+    background-color:black;
 }
 
 #second {
@@ -50,7 +49,7 @@ body {
     height: 90px;
     top: 10px;
     left: 99px;
-    background-color: #a83246;
+    background-color: black;
 }
 
 .center-point {
